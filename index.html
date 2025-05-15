@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaano Zone</title>
+  <link rel="stylesheet" href="fitur.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaano Zone</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    body {
+      background-color: #0f0f1b;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 2vh 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+    header h1 {
+      font-size: 36px;
+      color: #e94560;
+    }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.navbar h1 {
+  font-size: 36px;
+  color: #e94560;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 10px;
+}
+
+    .hero {
+      padding: 350px 250px;
+      text-align: center;
+      background: url('https://siwastore.id/images/bg.PNG') no-repeat center center/cover;
+      color: white;
+      background-blend-mode: multiply;
+      background-color: rgba(0,0,0,0.7);
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #1f1f3b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      border-left: 4px solid #e94560;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    h3 {
+      color: #e94560;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #1a1a2e;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 2px solid #e94560;
+    }
+
+    footer p {
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <h1>Kaano Zone</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="turnamen.html">Turnamen</a>
+      <a href="joki.html">Joki</a>
+      <a href="Contact.html">Contact us</a>
+    </nav>
+  </div>
+</header>
+
+
+    <section class="hero">
+        <h2>Masuki Era Dunia Gaming</h2>
+        <p>Turnamen, Joki Rank, Komunitas - Semua dalam satu tempat</p>
+    </section>
+
+
+  <section class="section">
+  <div class="card">
+    <h3>🗓️ Event Terbaru</h3>
+    <marquee behavior="scroll" direction="left">🎉 Turnamen MLB Minggu Ini - Prize pool Diamond | 🎯 Mobile legends Scrim Open Pendaftaran! | 🎮 Mobile legends S36 Scrim 18 Mei </marquee>
+  </div>
+</section>
+
+  <section class="section" id="tentang">
+    <div class="card">
+      <h3>Tentang Kami</h3>
+      <p>Kaano Zone adalah platform komunitas dan layanan yang sangat buruk di Mobile Legends. Kami sarankan untuk tidak mengunjungi web ini lagi dengan alasan apapun.</p>
+    </div>
+  </section>
+
+  <section class="section" id="fitur">
+    <div class="card">
+      <h3>🔥 Fitur Utama</h3>
+      <ul>
+         <span>🎮 Event Turnamen Setiap Minggu </span>
+          <a href="turnamen.html" class="fitur-btn">cek jadwal</a>
+        <span>|  🧠 Joki Rank Profesional </span>
+          <a href="joki.html" class="fitur-btn">order</a>
+        <span>|  🌍 Komunitas Discord Aktif </span>
+        <a href="https://discord.gg/r7VVnZX9" class="fitur-btn">join us</a>
+      </ul>
+      <div class="feature-buttons">
+  <a href="turnamen.html" class="btn-feature">Lihat Turnamen |</a>
+  <a href="joki.html" class="btn-feature">Layanan Joki |</a>
+  <a href="https://discord.gg/r7VVnZX9" target="_blank" class="btn-feature">Gabung Komunitas</a>
+    </div>
+  </section>
+
+  
+
+  <footer>
+    <p>© 2025 Kaano Zone. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
